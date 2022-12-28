@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background: linear-gradient(305deg, #eeffff 0, #9db9f2 50%, #4e5158 100%);
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100uv;
+}
+
+#container{
+
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.animacion{
+    position:relative;
+    animation: animacion 10s infinite;   
+    margin-top: 30px;
+    margin-right: 100%;
+}
+
+@keyframes animacion{
+    0%{left: 0px;}
+    100%{left:200px;}
+}
+
+.foto1 {
+
+    padding-top: 20px;
+    margin-left: 20px;
+}
+
+
+
+p{
+    color: #88726F ;
+    font-size: 40px;
+    font-family: cursive;
+}
+
+
+header{
+    background: linear-gradient(305deg, #eeffff 0, #9db9f2 50%, #4e5158 100%);
+}
+
+
+nav{
+    background: linear-gradient(305deg, #eeffff 0, #9db9f2 50%, #4e5158 100%);
+    
+
+}
+
+
+nav ul {
+    font-family: cursive;
+    font-size: 20px;
+    list-style: none;
+}
+
+
+nav ul li{
+    color: white;
+    font-family: cursive;
+    display: inline-block;
+
+}
+
+
+nav ul li a:hover{
+    background: linear-gradient(305deg, #eeffff 0, #9db9f2 50%, #4e5158 100%);    
+    
+}
+
+
+header h1 a {
+    background: linear-gradient(305deg, #eeffff 0, #9db9f2 50%, #4e5158 100%);
+}
+
+ 
+section{
+    background: linear-gradient(305deg, #eeffff 0, #9db9f2 50%, #4e5158 100%);
+}
+
+
+.foto1{
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.foto2{
+    width: auto;
+    height: auto;
+}
+
+.texto{
+    background-color: red;
+    color: white;
+}
+
+.texto2{
+    font-size: x-large;
+    background-color: blue;
+    color: white;
+}
+
+
+#video {
+    background: linear-gradient(305deg, #eeffff 0, #9db9f2 50%, #4e5158 100%);
+}
+
+
+footer{
+    background-color: crimson;
+}
+
+
+footer p{
+    background: linear-gradient(305deg, #eeffff 0, #9db9f2 50%, #4e5158 100%);
+    color: black;
+    font-size: small;
+}

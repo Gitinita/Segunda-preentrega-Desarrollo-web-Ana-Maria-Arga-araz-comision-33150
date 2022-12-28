@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(305deg, #eeffff 0, #9db9f2 50%, #4e5158 100%);
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100uv;
+}
+
+#container{
+
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.animacion{
+    position:relative;
+    animation: animacion 10s infinite;   
+    margin-top: 30px;
+    margin-right: 100%;
+}
+
+@keyframes animacion{
+    0%{left: 0px;}
+    100%{left:200px;}
+}
+
+.foto1 {
+
+    padding-top: 20px;
+    margin-left: 20px;
+}
+
+nav{
+    background: linear-gradient(305deg, #eeffff 0, #9db9f2 50%, #4e5158 100%);
+}
+
+
+nav ul {
+    font-family: cursive;
+    font-size: 20px;
+    list-style: none;
+}
+
+
+nav ul li{
+
+    font-family: cursive;
+    display: inline-block;
+
+}
+
+
+footer p{
+    background: linear-gradient(305deg, #eeffff 0, #9db9f2 50%, #4e5158 100%);
+    color: black;
+    font-size: medium;
+}
